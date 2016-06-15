@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Weather app</title>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/weather.js" type="text/javascript"></script>
+<style type="text/css">
+table.result {
+   border-collapse: collapse;
+   table-layout:fixed;
+}
+table.data {
+   border-collapse: collapse;
+   width: 100%;
+}
+pre {
+   white-space: pre-wrap;       /* CSS 3 */
+   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+   white-space: -pre-wrap;      /* Opera 4-6 */
+   white-space: -o-pre-wrap;    /* Opera 7 */
+   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+</style>
+</head>
+<body>
+<table cellspacing=10>
+           <tr>
+               <td>Enter City :</td>
+               <td><input type="text" id="city" /></td>
+           </tr>           
+           <tr>
+               <td><button id="getWeather" onclick="getWeatherData();">Get Weather Data</button></td>
+           </tr>
+       </table>
+       <div id="conversationDiv">
+            <p id="response">            
+        </div>
+</body>
+</html>
