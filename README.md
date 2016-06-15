@@ -1,16 +1,17 @@
 #Introduction
-This is a small web project to retrieve weather data for a particular city using information from Open Weather Map.
-Implemented
+This is a web project to retrieve weather data for a particular city using information from Open Weather Map.
+
 + Created a website which will return current weather data from OpenWeatherMap.org, based on a city chosen by the user i.e. 
 o	London
 o	Hong Kong
 
 + the user input their choice of city via a standard HTML <form>& receive results showing: 
-o	today’s date
-o	the city name
-o	overall description of the weather (e.g. "Light rain", "Clear sky", etc.)
-o	temperature in Fahrenheit and Celsius
-o	sunrise and sunset times in 12 hour format (e.g. 9:35am; 11:47pm)
++today’s date
++the city name
++overall description of the weather (e.g. "Light rain", "Clear sky", etc.)
++temperature in Fahrenheit and Celsius
++sunrise and sunset times in 12 hour format (e.g. 9:35am; 11:47pm)
+
 #Implementation details
 	+ the backend of the application uses core Java SE8, EE with spring boot
 	+ the project compiles on a machine with Maven 3.3 and Java SE8 
